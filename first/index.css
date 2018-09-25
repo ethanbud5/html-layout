@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100vw;
+    height: 150px;
+    background: rgb(66, 66, 66);
+}
+.left-sidebar{
+    width: 140px;
+    height: calc(100vh - 150px);
+    background: rgb(189, 189, 189);
+    float: left;
+}
+.right-sidebar{
+    width: 140px;
+    height: calc(100vh - 150px);
+    background: rgb(189, 189, 189);
+    float: right;
+}
+footer{
+    height: 100px;
+    width: calc(100vw - 280px);
+    background: rgb(36, 33, 33);
+    position: absolute;
+    left: 140px;
+    bottom: 0;
+
+}
