@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    padding:0;
+}
+header{
+    width: 100vw;
+    height: 100px;
+    background: lightgray;
+}
+.profile-img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: blue;
+    top:10px;
+    left: 10px;
+}
+.text-area{
+    height: 175px;
+    width: calc(100vw - 50px);
+    /* box-sizing: border-box; */
+    padding: 20px;
+}
+.blue-div{
+    width: 100vw;
+    height: 100px;
+    background: cornflowerblue;
+}
+
+.teal-div{
+    width: 100vw;
+    height: 100px;
+    background: teal;
+}
+
+.green-div{
+    width: 100vw;
+    height: 100px;
+    background: lightgreen;
+}
+
+.yellow-div{
+    width: 100vw;
+    height: 100px;
+    background: yellow;
+}
+
